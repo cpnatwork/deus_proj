@@ -11,7 +11,7 @@
 <node CREATED="1229423793076" ID="Freemind_Link_3541672" MODIFIED="1229423796272" TEXT="framing: counting"/>
 <node CREATED="1229423796620" ID="Freemind_Link_1324909616" MODIFIED="1229423803375" TEXT="encoding: MIME, default: txt/xml"/>
 <node CREATED="1229423803996" ID="Freemind_Link_1855689024" MODIFIED="1229423820127" TEXT="reporting: 3-digit, localized diagnostic"/>
-<node CREATED="1229423820547" ID="Freemind_Link_1580386414" MODIFIED="1229423830607" TEXT="asynchrony: channel multiplexing">
+<node CREATED="1229423820547" FOLDED="true" ID="Freemind_Link_1580386414" MODIFIED="1229423830607" TEXT="asynchrony: channel multiplexing">
 <node CREATED="1229424690028" ID="Freemind_Link_276717763" MODIFIED="1229424695535" TEXT="each channel has profile">
 <node CREATED="1229424723603" ID="Freemind_Link_846671112" MODIFIED="1229424737910" TEXT="=&gt; extensibility (protocol property!)"/>
 <node CREATED="1229424738435" ID="Freemind_Link_939830881" MODIFIED="1229424751078" TEXT="=&gt; parallelism"/>
@@ -61,7 +61,7 @@
 <node CREATED="1229348450092" ID="Freemind_Link_1388794002" MODIFIED="1229348457389" TEXT="HTTP vs. BEEP (http://www.xml.com/cs/user/view/cs_msg/802)"/>
 </node>
 </node>
-<node CREATED="1229348701975" ID="Freemind_Link_7372095" MODIFIED="1229436981190" POSITION="left" TEXT="Ma">
+<node CREATED="1229348701975" FOLDED="true" ID="Freemind_Link_7372095" MODIFIED="1229444026072" POSITION="left" TEXT="STOMP">
 <node CREATED="1229348831751" ID="Freemind_Link_221082340" LINK="http://stomp.codehaus.org/" MODIFIED="1229348831751" TEXT="stomp.codehaus.org"/>
 <node CREATED="1229348810853" ID="Freemind_Link_249355006" MODIFIED="1229348811988" TEXT="Streaming Text Orientated Messaging Protocol"/>
 <node CREATED="1229348857764" ID="Freemind_Link_588705019" MODIFIED="1229348860688" TEXT="pub/sub protocol"/>
@@ -95,8 +95,91 @@
 <node CREATED="1229352534001" ID="Freemind_Link_1775324156" MODIFIED="1229352537876" TEXT="= buddy list"/>
 </node>
 </node>
-<node CREATED="1229352520905" ID="Freemind_Link_33077673" MODIFIED="1229352523221" TEXT="messaging"/>
+<node CREATED="1229443969794" ID="Freemind_Link_542707584" MODIFIED="1229443972358" TEXT="references">
+<node CREATED="1229443972930" ID="Freemind_Link_1553162664" MODIFIED="1229443974310" TEXT="white papers">
+<node CREATED="1229443985693" ID="Freemind_Link_1300324488" LINK="http://www.igniterealtime.org/about/jive_xmpp_wp.pdf" MODIFIED="1229443985693" TEXT="igniterealtime.org &gt; About &gt; Jive xmpp wp"/>
+</node>
+<node CREATED="1229443989530" ID="Freemind_Link_1763701043" MODIFIED="1229443994046" TEXT="RFCs">
+<edge WIDTH="thin"/>
 <node CREATED="1229352816314" LINK="http://tools.ietf.org/html/rfc3921" MODIFIED="1229352816314" TEXT="tools.ietf.org &gt; Html &gt; Rfc3921"/>
+</node>
+</node>
+<node CREATED="1229444443098" ID="Freemind_Link_970630062" MODIFIED="1229444445397" TEXT="what is handled?">
+<node CREATED="1229444446930" ID="Freemind_Link_443564014" MODIFIED="1229444449389" TEXT="presence information"/>
+<node CREATED="1229444449642" ID="Freemind_Link_567963347" MODIFIED="1229444452637" TEXT="instant messaging"/>
+<node CREATED="1229444453154" ID="Freemind_Link_1001492010" MODIFIED="1229444454405" TEXT="group chat"/>
+<node CREATED="1229444464625" ID="Freemind_Link_1620024166" MODIFIED="1229444467629" TEXT="generic information exchange"/>
+</node>
+<node CREATED="1229444662278" ID="Freemind_Link_1533024246" MODIFIED="1229444664001" TEXT="protocol">
+<node CREATED="1229444941680" ID="Freemind_Link_1159054650" MODIFIED="1229444943108" TEXT="JIDs">
+<node CREATED="1229444943920" ID="Freemind_Link_1240987776" MODIFIED="1229444948980" TEXT="format: username@server"/>
+<node CREATED="1229444986592" ID="Freemind_Link_772923274" MODIFIED="1229444989987" TEXT="multi user chat (MUC)">
+<node CREATED="1229444990592" ID="Freemind_Link_761305260" MODIFIED="1229445010507" TEXT="convention for server conference.server.name"/>
+<node CREATED="1229445016639" ID="Freemind_Link_992567950" MODIFIED="1229445029131" TEXT="MUC-room&apos;s JID: roomname@conference.server.name"/>
+</node>
+</node>
+<node CREATED="1229444547968" ID="Freemind_Link_647812130" MODIFIED="1229444671289" TEXT="XML format">
+<node CREATED="1229444470177" ID="Freemind_Link_388711824" MODIFIED="1229444474221" TEXT="three basic stanzas">
+<node CREATED="1229444486585" ID="Freemind_Link_617174518" MODIFIED="1229444642857" TEXT="&lt;message/&gt;">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1229444492041" ID="Freemind_Link_552954629" MODIFIED="1229444642854" TEXT="&lt;presence/&gt;">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1229444519000" ID="Freemind_Link_642499562" MODIFIED="1229444642858" TEXT="&lt;iq/&gt;">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1229444523480" ID="Freemind_Link_471169556" MODIFIED="1229444526412" TEXT="information/query"/>
+<node CREATED="1229444531096" ID="Freemind_Link_1888963311" MODIFIED="1229444533604" TEXT="request/response"/>
+</node>
+</node>
+<node CREATED="1229444542792" ID="Freemind_Link_100402516" MODIFIED="1229444546156" TEXT="five common attributes">
+<node CREATED="1229444559464" ID="Freemind_Link_1766620586" MODIFIED="1229444634300" TEXT="to">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1229444564783" ID="Freemind_Link_1573947850" MODIFIED="1229444591739" TEXT="JID of recipient"/>
+</node>
+<node CREATED="1229444593439" ID="Freemind_Link_782032974" MODIFIED="1229444634320" TEXT="from">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1229444595279" ID="Freemind_Link_493391469" MODIFIED="1229444597099" TEXT="JID of sender"/>
+</node>
+<node CREATED="1229444600983" ID="Freemind_Link_320449485" MODIFIED="1229444634332" TEXT="id">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1229444602503" ID="Freemind_Link_843508160" MODIFIED="1229444604571" TEXT="unique ID"/>
+</node>
+<node CREATED="1229444605599" ID="Freemind_Link_1409417457" MODIFIED="1229444634341" TEXT="type">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1229444612391" ID="Freemind_Link_667479835" MODIFIED="1229444634351" TEXT="xml:lang">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1229444614806" ID="Freemind_Link_1204523032" MODIFIED="1229444619426" TEXT="specify human language"/>
+</node>
+</node>
+<node CREATED="1229444721741" ID="Freemind_Link_1276313225" MODIFIED="1229444725360" TEXT="open ended stream">
+<node CREATED="1229444728636" ID="Freemind_Link_612114526" MODIFIED="1229444732376" TEXT="starts with &lt;stream&gt;"/>
+<node CREATED="1229444740708" ID="Freemind_Link_620559888" MODIFIED="1229444743936" TEXT="then series of stanzas"/>
+<node CREATED="1229444747804" ID="Freemind_Link_376602727" MODIFIED="1229444757096" TEXT="closing &lt;/stream&gt; =&gt; TCP connection torn down"/>
+<node CREATED="1229448638477" ID="Freemind_Link_698834012" MODIFIED="1229448645560" TEXT="two complete XML documents are exchanged"/>
+</node>
+<node CREATED="1229444776067" ID="Freemind_Link_1879123879" MODIFIED="1229444781423" TEXT="add XML to add capabilities">
+<node CREATED="1229444792707" ID="Freemind_Link_1175707648" MODIFIED="1229444803811" TEXT="=&gt; XML enabled communication backplane">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1229444821675" ID="Freemind_Link_1719327606" MODIFIED="1229444838718" TEXT="&quot;subscribe to server and receive XML messages from other users&quot;"/>
+</node>
+</node>
+<node CREATED="1229444674461" ID="Freemind_Link_338737311" MODIFIED="1229444678257" TEXT="connection">
+<node CREATED="1229444679237" ID="Freemind_Link_1615349794" MODIFIED="1229445056938" TEXT="user has account on a server"/>
+<node CREATED="1229445073366" ID="Freemind_Link_545376665" MODIFIED="1229445076226" TEXT="client &lt;-&gt; server">
+<node CREATED="1229444684613" ID="Freemind_Link_1768509870" MODIFIED="1229445082418" TEXT="client connects and authenticates to its server"/>
+</node>
+<node CREATED="1229445085054" ID="Freemind_Link_1652499702" MODIFIED="1229445087498" TEXT="server &lt;-&gt; server">
+<node CREATED="1229444689173" ID="Freemind_Link_488334098" MODIFIED="1229444709809" TEXT="if message to a user on a different server, connection between his server and yours"/>
+</node>
+</node>
+</node>
+<node CREATED="1229448544230" ID="Freemind_Link_1344359451" MODIFIED="1229448546634" TEXT="extensions">
+<node CREATED="1229448556934" ID="Freemind_Link_1784844534" MODIFIED="1229448558812" TEXT="XEP-0237: Data Sequencing"/>
+<node CREATED="1229448559798" ID="Freemind_Link_113601284" MODIFIED="1229448567855" TEXT="XEP-0163: Personal Eventing Protocol"/>
+</node>
 </node>
 <node CREATED="1229349478337" ID="Freemind_Link_902622759" MODIFIED="1229349481004" POSITION="right" TEXT="our protocol">
 <node CREATED="1229349481977" ID="Freemind_Link_1835287744" MODIFIED="1229349483604" TEXT="requirements">
@@ -125,7 +208,7 @@
 <node CREATED="1229419204256" ID="Freemind_Link_557651051" MODIFIED="1229419213196" TEXT="caching message if server not available"/>
 </node>
 </node>
-<node CREATED="1229418586177" ID="Freemind_Link_379835437" MODIFIED="1229418606604" POSITION="left" TEXT="On the Design of Application Protocols (RFC 3117)" VSHIFT="126">
+<node CREATED="1229418586177" FOLDED="true" ID="Freemind_Link_379835437" MODIFIED="1229418606604" POSITION="left" TEXT="On the Design of Application Protocols (RFC 3117)" VSHIFT="126">
 <node CREATED="1229418607683" ID="Freemind_Link_13236126" MODIFIED="1229418627087" TEXT="four ways for getting an app prot.">
 <node CREATED="1229418627747" ID="Freemind_Link_1257839602" MODIFIED="1229418872058" TEXT="find and existing exchange protocol"/>
 <node CREATED="1229418636107" ID="Freemind_Link_1855045420" MODIFIED="1229418893722" TEXT="define exchange model on top of the WWW infrastructure"/>
@@ -135,7 +218,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1229347596708" ID="Freemind_Link_1143595034" MODIFIED="1229347604958" TEXT="p2p (no notion of client or server)">
+<node CREATED="1229347596708" FOLDED="true" ID="Freemind_Link_1143595034" MODIFIED="1229347604958" TEXT="p2p (no notion of client or server)">
 <node CREATED="1229419865476" ID="Freemind_Link_1126430587" MODIFIED="1229419878583" TEXT="both parties can issue a request and answer to this by a response"/>
 <node CREATED="1229419920723" ID="Freemind_Link_729952712" MODIFIED="1229419953302" TEXT="&quot;client/server is a proper subset of the p2p model&quot; (rfc 3117)">
 <node CREATED="1229419961010" ID="Freemind_Link_1818878641" MODIFIED="1229419992557" TEXT="e.g. define a protocol, where the peer, which establishes connection is always the client"/>
@@ -230,6 +313,21 @@
 </node>
 <node CREATED="1229420226149" ID="Freemind_Link_1379573709" MODIFIED="1229420230033" TEXT="peer-to-peer (p2p)">
 <node CREATED="1229420230573" ID="Freemind_Link_1332435631" MODIFIED="1229420248417" TEXT="each host can simultaneously act as client AND server"/>
+</node>
+</node>
+<node CREATED="1229439983672" ID="Freemind_Link_1989724448" MODIFIED="1229439985770" POSITION="left" TEXT="HTTP">
+<node CREATED="1229439987252" FOLDED="true" ID="Freemind_Link_1785342985" MODIFIED="1229439995656" TEXT="reuse platform of choice">
+<node CREATED="1229440002532" ID="Freemind_Link_638583266" MODIFIED="1229440003951" TEXT="e.g.">
+<node CREATED="1229440004772" ID="Freemind_Link_1916305989" MODIFIED="1229440005799" TEXT="SOAP"/>
+<node CREATED="1229440006140" ID="Freemind_Link_1879360514" MODIFIED="1229440008175" TEXT="IPP"/>
+</node>
+<node CREATED="1229440010803" ID="Freemind_Link_1212434649" MODIFIED="1229440013919" TEXT="why?">
+<node CREATED="1229440014515" ID="Freemind_Link_1981679103" MODIFIED="1229440018175" TEXT="familiar"/>
+<node CREATED="1229440018459" ID="Freemind_Link_1452510288" MODIFIED="1229440026519" TEXT="ubiquitous"/>
+<node CREATED="1229440027019" ID="Freemind_Link_1633479802" MODIFIED="1229440032983" TEXT="simple request/response model"/>
+<node CREATED="1229440033459" ID="Freemind_Link_1831149395" MODIFIED="1229440041927" TEXT="it works through firewalls"/>
+<node CREATED="1229440082141" ID="Freemind_Link_1526609767" MODIFIED="1229440117934" TEXT="The problem is that the widespread availability of HTTP has become an excuse for not bothering to understand what the requirements really are. It&apos;s easier to use HTTP, even if it&apos;s not a good fit, than to understand your requirements and design a protocol that does what you really need. "/>
+</node>
 </node>
 </node>
 </node>
