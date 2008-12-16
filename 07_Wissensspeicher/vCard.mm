@@ -1,0 +1,540 @@
+<map version="0.8.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node BACKGROUND_COLOR="#879dff" CREATED="1228825544319" ID="Freemind_Link_250190164" MODIFIED="1228831420213" TEXT="vCard">
+<edge STYLE="sharp_bezier" WIDTH="thin"/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1228825603939" ID="Freemind_Link_1648700647" MODIFIED="1228831420210" POSITION="right" TEXT="vCard Extensions for Instance Messaging">
+<edge STYLE="bezier"/>
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1228825613754" ID="Freemind_Link_1604825574" MODIFIED="1228831420209" TEXT="rfc 4770">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1228825620594" ID="Freemind_Link_872438951" MODIFIED="1228831420208" POSITION="right" STYLE="fork" TEXT="4.0">
+<edge STYLE="bezier"/>
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1228825624658" ID="Freemind_Link_1779664729" MODIFIED="1228831420206" TEXT="IN PROGRESS">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1228825627234" ID="Freemind_Link_1238581303" MODIFIED="1228831420205" TEXT="IETF">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1228825635338" ID="Freemind_Link_262668933" MODIFIED="1228831420204" TEXT="Gruppe: vcarddav">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1228825644234" ID="Freemind_Link_856850941" MODIFIED="1228831420202" TEXT="goals">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1228825656450" ID="Freemind_Link_973420172" MODIFIED="1228831420201" TEXT="update vCard itself">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1228825660033" ID="Freemind_Link_546589158" MODIFIED="1228831420200" TEXT="vCard exchange protocol">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1228827412770" ID="Freemind_Link_829216857" MODIFIED="1228831420198" POSITION="left" TEXT="X.500 series person object" VSHIFT="-85">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1228825555492" FOLDED="true" ID="Freemind_Link_1890691132" MODIFIED="1228831420195" POSITION="left" TEXT="2.1" VSHIFT="19">
+<edge STYLE="bezier"/>
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1228825563571" ID="Freemind_Link_1869294502" MODIFIED="1228831420193" TEXT="by IMC (Internet Mail Consortium)">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1228825569827" ID="Freemind_Link_1257503714" MODIFIED="1228831420190" TEXT="www.imc.org/pdi -&gt; specs">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1228825583171" ID="Freemind_Link_1928609459" MODIFIED="1228831420187" TEXT="1996">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1228836818413" ID="Freemind_Link_169453644" MODIFIED="1228836823880" TEXT="see version 3.0 for more"/>
+</node>
+<node CREATED="1228825586155" ID="Freemind_Link_236019550" MODIFIED="1228831420184" POSITION="left" TEXT="3.0">
+<edge STYLE="bezier"/>
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1228825596099" FOLDED="true" HGAP="60" ID="Freemind_Link_1069641251" MODIFIED="1228831420181" TEXT="(+ rfc 2425) &quot;MIME-DIR&quot;" VSHIFT="102">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1228826565813" ID="_" MODIFIED="1228831420176" TEXT="&quot;MIME Content-Type for holding directory information&quot;">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1228826654127" ID="Freemind_Link_783357871" MODIFIED="1228831420161" TEXT="profiles">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1228826669847" ID="Freemind_Link_1194070543" MODIFIED="1228831420159" TEXT="app-specific information"/>
+</node>
+<node COLOR="#0033ff" CREATED="1228826847756" ID="Freemind_Link_1230227416" MODIFIED="1228831420158" TEXT="somehow resembles XML + XSD">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1228829332414" ID="Freemind_Link_681955917" MODIFIED="1228831420153" TEXT="standard vs. nonstandard (&quot;X-...&quot;) types">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1228836844772" FOLDED="true" ID="Freemind_Link_1933017661" MODIFIED="1228836849928" TEXT="encoding characteristics">
+<node CREATED="1228836850868" ID="Freemind_Link_657954087" MODIFIED="1228836860511" TEXT="vCard object">
+<node CREATED="1228829434932" ID="Freemind_Link_270864466" MODIFIED="1228833670004" TEXT="BEGIN:VCARD ... END:VCARD">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1228836870972" ID="Freemind_Link_25920052" MODIFIED="1228836874552" TEXT="property format">
+<node CREATED="1228826614056" ID="Freemind_Link_1346878226" MODIFIED="1228836900150" TEXT="TYPE;PARAM1=...;PARAM2=...:VALUE">
+<font BOLD="true" NAME="Courier" SIZE="12"/>
+<node CREATED="1228828186835" ID="Freemind_Link_1086220578" MODIFIED="1228831420170" TEXT="value specifications">
+<node CREATED="1228830283389" ID="Freemind_Link_1585680468" MODIFIED="1228831420169" TEXT="text"/>
+<node CREATED="1228828288019" ID="Freemind_Link_1761114513" MODIFIED="1228831420169" TEXT="uri"/>
+<node CREATED="1228828283721" ID="Freemind_Link_151855849" MODIFIED="1228831420168" TEXT="date"/>
+<node CREATED="1228828274282" ID="Freemind_Link_1090894157" MODIFIED="1228831420168" TEXT="date-time"/>
+<node CREATED="1228828194803" ID="Freemind_Link_669687151" MODIFIED="1228831420167" TEXT="float"/>
+<node CREATED="1228828337034" ID="Freemind_Link_823926964" MODIFIED="1228831420166" TEXT="..."/>
+</node>
+<node CREATED="1228828292041" ID="Freemind_Link_491183611" MODIFIED="1228831420166" TEXT="types">
+<node CREATED="1228828298513" FOLDED="true" ID="Freemind_Link_1894616701" MODIFIED="1228833626535" TEXT="SOURCE">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1228830118808" ID="Freemind_Link_312963780" MODIFIED="1228831420165" TEXT="how to find the source for the entry"/>
+</node>
+<node CREATED="1228828302585" ID="Freemind_Link_1724056865" MODIFIED="1228833626539" TEXT="NAME">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828303465" ID="Freemind_Link_413864679" MODIFIED="1228833626541" TEXT="PROFILE">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828306041" ID="Freemind_Link_1982101197" MODIFIED="1228833626543" TEXT="BEGIN">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828307721" ID="Freemind_Link_1325515046" MODIFIED="1228833626545" TEXT="END">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828333112" ID="Freemind_Link_1865386376" MODIFIED="1228831420163" TEXT="..."/>
+</node>
+<node CREATED="1228828310681" ID="Freemind_Link_1180073886" MODIFIED="1228831420162" TEXT="parameters">
+<node CREATED="1228828315993" ID="Freemind_Link_1773287781" MODIFIED="1228833633320" TEXT="ENCODING">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828319624" ID="Freemind_Link_368821468" MODIFIED="1228833633324" TEXT="VALUE">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828322344" ID="Freemind_Link_1562877883" MODIFIED="1228833633326" TEXT="CHARSET">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828325048" ID="Freemind_Link_1551543383" MODIFIED="1228833633327" TEXT="LANGUAGE">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828326712" ID="Freemind_Link_376968058" MODIFIED="1228833633329" TEXT="CONTEXT">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828329112" ID="Freemind_Link_158454490" MODIFIED="1228831420162" TEXT="..."/>
+</node>
+</node>
+<node CREATED="1228831672131" ID="Freemind_Link_1606695771" MODIFIED="1228831684016" TEXT="types and parameter names are case insensitive"/>
+</node>
+<node CREATED="1228836935794" ID="Freemind_Link_1307991650" MODIFIED="1228836938390" TEXT="delimiters">
+<node CREATED="1228836945970" ID="Freemind_Link_1120394365" MODIFIED="1228836959182" TEXT="property delimiter: CRLF"/>
+<node CREATED="1228831233355" ID="Freemind_Link_305124165" MODIFIED="1228831420151" TEXT="line folding">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1228831239651" ID="Freemind_Link_1336422545" MODIFIED="1228831420150" TEXT="lines starting with whitespace are folded lines"/>
+<node CREATED="1228831257371" ID="Freemind_Link_1606801235" MODIFIED="1228831420149" TEXT="fold after 75 characters"/>
+<node CREATED="1228836969522" ID="Freemind_Link_368708065" MODIFIED="1228836979644" TEXT="more in rfc822"/>
+</node>
+</node>
+<node CREATED="1228828662290" ID="Freemind_Link_171713319" MODIFIED="1228831420156" TEXT="type grouping">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1228831331641" ID="Freemind_Link_422053038" MODIFIED="1228831420154" TEXT="A.TYPE1:...   A.TYPE2:..."/>
+</node>
+<node CREATED="1228837158366" ID="Freemind_Link_117327891" MODIFIED="1228837159818" TEXT="encoding">
+<node CREATED="1228837165318" ID="Freemind_Link_1125879936" MODIFIED="1228837170418" TEXT="given by Content-Transfer-Encoding header"/>
+<node CREATED="1228837172254" ID="Freemind_Link_263958507" MODIFIED="1228837176218" TEXT="if binary data">
+<node CREATED="1228837176638" ID="Freemind_Link_1541280707" MODIFIED="1228837227745" TEXT="ENCODING=b">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1228837211413" ID="Freemind_Link_1179508693" MODIFIED="1228837213993" TEXT="value location">
+<node CREATED="1228837220365" ID="Freemind_Link_1719444555" MODIFIED="1228837229253" TEXT="VALUE=INLINE">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1228837217205" ID="Freemind_Link_1546147796" MODIFIED="1228837219689" TEXT="default"/>
+</node>
+<node CREATED="1228837234261" ID="Freemind_Link_843773336" MODIFIED="1228837273836" TEXT="VALUE=CONTENT-ID">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228837269972" ID="Freemind_Link_1421084640" MODIFIED="1228837273839" TEXT="VALUE=URL">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1228837296812" ID="Freemind_Link_333740526" MODIFIED="1228837299071" TEXT="binary values">
+<node CREATED="1228837299484" ID="Freemind_Link_1377211577" MODIFIED="1228837302231" TEXT="Base64 encoding"/>
+</node>
+</node>
+</node>
+<node CREATED="1228825589675" HGAP="105" ID="Freemind_Link_1228345" MODIFIED="1228831420149" TEXT="rfc 2426" VSHIFT="86">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1228827036312" FOLDED="true" ID="Freemind_Link_357060913" MODIFIED="1228831420146" TEXT="&quot;vCard MIME Directory Profile&quot;">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1228828407278" ID="Freemind_Link_115380339" MODIFIED="1228831420145" TEXT="embedding vCard 2.1 into MIME-DIR"/>
+</node>
+<node CREATED="1228827066984" ID="Freemind_Link_410309267" MODIFIED="1228831420144" TEXT="based on attributes of person object in X.520/X.521">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1228828385160" ID="Freemind_Link_433077569" MODIFIED="1228831420142" TEXT="additional">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1228828423983" ID="Freemind_Link_1954840748" MODIFIED="1228831420140" TEXT="value specifications">
+<node CREATED="1228828435510" ID="Freemind_Link_1289653924" MODIFIED="1228831420139" TEXT="constrain on text value spec">
+<node CREATED="1228830305316" HGAP="40" ID="Freemind_Link_21150867" MODIFIED="1228831420139" TEXT="restricted (escape &apos;;&apos; by &apos;\&apos;)" VSHIFT="18"/>
+</node>
+<node CREATED="1228828446670" FOLDED="true" ID="Freemind_Link_1330698701" MODIFIED="1228831420138" TEXT="phone-number">
+<node CREATED="1228830830411" ID="Freemind_Link_287921710" MODIFIED="1228831420138" TEXT="used in TEL type"/>
+<node CREATED="1228830859698" ID="Freemind_Link_647900238" MODIFIED="1228831420138" TEXT="see CCITT E.163"/>
+</node>
+<node CREATED="1228828453774" ID="Freemind_Link_1255050337" MODIFIED="1228831420137" TEXT="utc-offset">
+<node CREATED="1228830927185" ID="Freemind_Link_830048161" MODIFIED="1228831420137" TEXT="for TZ type"/>
+<node CREATED="1228830983752" ID="Freemind_Link_804348158" MODIFIED="1228831420136" TEXT="+/-hh:mm"/>
+</node>
+<node CREATED="1228828459878" FOLDED="true" ID="Freemind_Link_1277106743" MODIFIED="1228831420135" TEXT="vcard value">
+<node CREATED="1228830712669" ID="Freemind_Link_1365677212" MODIFIED="1228831420135" TEXT="value is another vCard!"/>
+<node CREATED="1228830731316" ID="Freemind_Link_1328465160" MODIFIED="1228831420135" TEXT="for AGENT type"/>
+<node CREATED="1228830796507" ID="Freemind_Link_459134340" MODIFIED="1228831420135" TEXT="line ending not CRLF, but \n"/>
+<node CREATED="1228830810515" ID="Freemind_Link_411026543" MODIFIED="1228831420135" TEXT="escaping of &apos;,&apos; and &apos;;&apos;"/>
+</node>
+<node CREATED="1228830601479" FOLDED="true" ID="Freemind_Link_1401895110" MODIFIED="1228831420135" TEXT="binary">
+<node CREATED="1228830621350" ID="Freemind_Link_449974386" MODIFIED="1228831420135" TEXT="for PHOTO, LOGO, SOUND and KEY types"/>
+<node CREATED="1228830633662" ID="Freemind_Link_1043314217" MODIFIED="1228831420134" TEXT="inline encoded binary data"/>
+<node CREATED="1228830650238" ID="Freemind_Link_1198381625" MODIFIED="1228831420134" TEXT="using ENCODING parameter!"/>
+</node>
+<node CREATED="1228831086134" ID="Freemind_Link_1876355981" MODIFIED="1228831420134" TEXT="structured">
+<node CREATED="1228831155836" ID="Freemind_Link_1906486861" MODIFIED="1228831420133" TEXT="compound">
+<node CREATED="1228831111581" ID="Freemind_Link_210198763" MODIFIED="1228832839822" TEXT="component/field delimiter &apos;;&apos;"/>
+</node>
+<node CREATED="1228831165700" ID="Freemind_Link_1763836773" MODIFIED="1228831420132" TEXT="list">
+<node CREATED="1228831172252" ID="Freemind_Link_572844012" MODIFIED="1228831420131" TEXT="list delimiter &apos;,&apos;"/>
+</node>
+</node>
+</node>
+<node CREATED="1228828487565" ID="Freemind_Link_1604949416" MODIFIED="1228835719750" TEXT="types">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1228832270264" ID="Freemind_Link_353380583" MODIFIED="1228832278556" TEXT="see chapter 3 of rfc 2426!"/>
+<node CREATED="1228832204809" ID="Freemind_Link_1331292421" MODIFIED="1228832211773" TEXT="identification">
+<node CREATED="1228828491981" ID="Freemind_Link_471224174" MODIFIED="1228833598776" TEXT="FN">
+<font NAME="Courier" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1228828496757" ID="Freemind_Link_1950154725" MODIFIED="1228833598780" TEXT="N">
+<font NAME="Courier" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+<node CREATED="1228832866037" ID="Freemind_Link_1210020445" MODIFIED="1228832902868" TEXT="single structured text value"/>
+<node CREATED="1228832904268" ID="Freemind_Link_740196748" MODIFIED="1228832905400" TEXT="multiple values per component possible"/>
+<node CREATED="1228832907404" ID="Freemind_Link_1683581021" MODIFIED="1228832909560" TEXT="sequence">
+<node CREATED="1228832320111" ID="Freemind_Link_1486719466" MODIFIED="1228832965133" TEXT="family name"/>
+<node CREATED="1228832928812" ID="Freemind_Link_881516693" MODIFIED="1228832962175" TEXT="given name"/>
+<node CREATED="1228832933764" ID="Freemind_Link_1966828162" MODIFIED="1228832958728" TEXT="additional names"/>
+<node CREATED="1228832939020" ID="Freemind_Link_1987595933" MODIFIED="1228832953832" TEXT="honor prefix"/>
+<node CREATED="1228832943556" ID="Freemind_Link_272761791" MODIFIED="1228832949495" TEXT="honor suffixes"/>
+</node>
+</node>
+<node CREATED="1228828497541" ID="Freemind_Link_1218318366" MODIFIED="1228833598783" TEXT="NICKNAME">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828500805" ID="Freemind_Link_944042677" MODIFIED="1228833598785" TEXT="PHOTO">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828503189" ID="Freemind_Link_1333291026" MODIFIED="1228833598789" TEXT="BDAY">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1228832538147" ID="Freemind_Link_25377450" MODIFIED="1228832542964" TEXT="delivery addressing">
+<node CREATED="1228828507741" ID="Freemind_Link_1443140561" MODIFIED="1228833598791" TEXT="ADR">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1228832969707" ID="Freemind_Link_1838686901" MODIFIED="1228832980743" TEXT="single structured text value"/>
+<node CREATED="1228832904268" ID="Freemind_Link_235855657" MODIFIED="1228832905400" TEXT="multiple values per component possible"/>
+<node CREATED="1228832666225" ID="Freemind_Link_1492026664" MODIFIED="1228832976743" TEXT="sequence">
+<node CREATED="1228832624075" ID="Freemind_Link_513721975" MODIFIED="1228832664398" TEXT="Post office box"/>
+<node CREATED="1228832702736" ID="Freemind_Link_726666475" MODIFIED="1228832706132" TEXT="extended address"/>
+<node CREATED="1228832706648" ID="Freemind_Link_529334301" MODIFIED="1228832710516" TEXT="street address"/>
+<node CREATED="1228832711112" ID="Freemind_Link_1912104123" MODIFIED="1228832716092" TEXT="locality (city)"/>
+<node CREATED="1228832716528" ID="Freemind_Link_696433307" MODIFIED="1228832722555" TEXT="region (state, province)"/>
+<node CREATED="1228832723008" ID="Freemind_Link_1470577445" MODIFIED="1228832727467" TEXT="postal code"/>
+<node CREATED="1228832727960" ID="Freemind_Link_475839973" MODIFIED="1228832731835" TEXT="country name"/>
+</node>
+<node CREATED="1228833918834" ID="Freemind_Link_600588531" MODIFIED="1228833920662" TEXT="parameters">
+<node CREATED="1228833045938" ID="Freemind_Link_306048203" MODIFIED="1228833993034" TEXT="TYPE">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1228833085497" ID="Freemind_Link_606299906" MODIFIED="1228833091229" TEXT="parameter values">
+<node CREATED="1228833093985" ID="Freemind_Link_1142345796" MODIFIED="1228833598801" TEXT="dom">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228833103217" ID="Freemind_Link_1114052720" MODIFIED="1228833598806" TEXT="intl">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228833109521" ID="Freemind_Link_229605484" MODIFIED="1228833598808" TEXT="postal">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228833116273" ID="Freemind_Link_473497469" MODIFIED="1228833598810" TEXT="parcel">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228833120849" ID="Freemind_Link_415255161" MODIFIED="1228833598812" TEXT="home">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228833122896" ID="Freemind_Link_313552232" MODIFIED="1228833598816" TEXT="work">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228833133912" ID="Freemind_Link_1331718217" MODIFIED="1228833598818" TEXT="pref">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1228833157512" ID="Freemind_Link_1007316509" MODIFIED="1228921224955" TEXT="notation">
+<node CREATED="1228833195991" ID="Freemind_Link_1383358590" MODIFIED="1228833201339" TEXT="parameter list">
+<node CREATED="1228833201663" ID="Freemind_Link_1895702072" MODIFIED="1228833598822" TEXT="TYPE=dom;TYPE=postal">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1228833212991" ID="Freemind_Link_337027622" MODIFIED="1228833215515" TEXT="value list">
+<node CREATED="1228833215991" ID="Freemind_Link_1293415105" MODIFIED="1228833598833" TEXT="TYPE=dom,postal">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1228833233462" ID="Freemind_Link_144023912" MODIFIED="1228833236594" TEXT="default">
+<node CREATED="1228833236950" ID="Freemind_Link_354696281" MODIFIED="1228833558657" TEXT="TYPE=intl,postal,parcel,work">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1228828508829" ID="Freemind_Link_1645383376" MODIFIED="1228833598687" TEXT="LABEL">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1228833885230" ID="Freemind_Link_1370676481" MODIFIED="1228833890297" TEXT="delivery address label"/>
+<node CREATED="1228833950753" ID="Freemind_Link_940915047" MODIFIED="1228833953957" TEXT="parameters">
+<node CREATED="1228833956489" ID="Freemind_Link_1989640454" MODIFIED="1228834010965" TEXT="TYPE">
+<arrowlink COLOR="#ff9090" DESTINATION="Freemind_Link_306048203" ENDARROW="Default" ENDINCLINATION="148;0;" ID="Freemind_Arrow_Link_480766682" STARTARROW="None" STARTINCLINATION="148;0;"/>
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1228834109863" ID="Freemind_Link_1827292813" MODIFIED="1228834118773" TEXT="telecommunications addressing">
+<node CREATED="1228828511125" ID="Freemind_Link_43325253" MODIFIED="1228833598699" TEXT="TEL">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1228834176589" ID="Freemind_Link_1634819342" MODIFIED="1228834186585" TEXT="single phone-number value"/>
+<node CREATED="1228834187629" ID="Freemind_Link_1921600540" MODIFIED="1228834189329" TEXT="parameters">
+<node CREATED="1228834189845" ID="Freemind_Link_707877267" MODIFIED="1228834191549" TEXT="TYPE">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1228834200685" ID="Freemind_Link_1974535140" MODIFIED="1228834202680" TEXT="parameter values">
+<node CREATED="1228834203077" ID="Freemind_Link_1797528553" MODIFIED="1228834295675" TEXT="home">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228834210132" ID="Freemind_Link_203932394" MODIFIED="1228834295715" TEXT="msg">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228834214276" ID="Freemind_Link_1822343877" MODIFIED="1228834295714" TEXT="work">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228834235900" ID="Freemind_Link_834804202" MODIFIED="1228834295712" TEXT="pref">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228834236916" ID="Freemind_Link_810251319" MODIFIED="1228834295711" TEXT="voice">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228834244276" ID="Freemind_Link_286845918" MODIFIED="1228834295708" TEXT="fax">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228834250340" ID="Freemind_Link_924611341" MODIFIED="1228834295706" TEXT="cell">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228834254084" ID="Freemind_Link_1252631347" MODIFIED="1228834295703" TEXT="video">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228834255636" ID="Freemind_Link_571645117" MODIFIED="1228834295699" TEXT="pager">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228834266179" ID="Freemind_Link_1583565653" MODIFIED="1228834295696" TEXT="bbs">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228834271331" ID="Freemind_Link_593610281" MODIFIED="1228834295688" TEXT="modem">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228834272611" ID="Freemind_Link_8563849" MODIFIED="1228834295686" TEXT="car">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228834273603" ID="Freemind_Link_1065993314" MODIFIED="1228834295684" TEXT="isdn">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228834280971" ID="Freemind_Link_1536678458" MODIFIED="1228834295682" TEXT="pcs">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1228834312363" ID="Freemind_Link_1934774054" MODIFIED="1228921224951" TEXT="notation">
+<arrowlink COLOR="#fd8080" DESTINATION="Freemind_Link_1007316509" ENDARROW="Default" ENDINCLINATION="420;0;" ID="Freemind_Arrow_Link_1638170042" STARTARROW="None" STARTINCLINATION="294;-25;"/>
+</node>
+<node CREATED="1228834350858" ID="Freemind_Link_273392573" MODIFIED="1228834353366" TEXT="default">
+<node CREATED="1228834354058" ID="Freemind_Link_1920350851" MODIFIED="1228834363580" TEXT="TYPE=voice">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1228828513173" ID="Freemind_Link_1029148089" MODIFIED="1228833598702" TEXT="EMAIL">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1228834397985" ID="Freemind_Link_456418247" MODIFIED="1228834399749" TEXT="parameters">
+<node CREATED="1228834400969" ID="Freemind_Link_175239205" MODIFIED="1228834403155" TEXT="TYPE">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1228834449552" ID="Freemind_Link_347702223" MODIFIED="1228834451980" TEXT="parameter values">
+<node CREATED="1228834411129" ID="Freemind_Link_506853389" MODIFIED="1228834467568" TEXT="internet">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228834412857" ID="Freemind_Link_1012030208" MODIFIED="1228834467573" TEXT="x400">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228834425424" ID="Freemind_Link_281069679" MODIFIED="1228834467571" TEXT="pref">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1228834453056" ID="Freemind_Link_1506357470" MODIFIED="1228834454388" TEXT="default">
+<node CREATED="1228834454784" ID="Freemind_Link_1165445405" MODIFIED="1228834459864" TEXT="TYPE=internet">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1228828518141" ID="Freemind_Link_550727678" MODIFIED="1228833598708" TEXT="MAILER">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1228834549350" FOLDED="true" ID="Freemind_Link_858435371" MODIFIED="1228834559202" TEXT="geographical">
+<node CREATED="1228828521229" ID="Freemind_Link_936479993" MODIFIED="1228833598712" TEXT="TZ">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1228834628541" ID="Freemind_Link_973495054" MODIFIED="1228834641455" TEXT="single utc-offset value">
+<node CREATED="1228834653516" ID="Freemind_Link_1339349279" MODIFIED="1228834660232" TEXT="can be reset to single text value">
+<node CREATED="1228834660564" ID="Freemind_Link_1127449631" MODIFIED="1228834674420" TEXT="VALUE=text">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1228828523661" ID="Freemind_Link_45311622" MODIFIED="1228833598716" TEXT="GEO">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1228834695196" ID="Freemind_Link_212150315" MODIFIED="1228834696351" TEXT="example">
+<node CREATED="1228834697244" ID="Freemind_Link_782338239" MODIFIED="1228834720027" TEXT="GEO:37.100000;42.000000">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1228834755643" FOLDED="true" ID="Freemind_Link_433186644" MODIFIED="1228834758518" TEXT="organizational">
+<node CREATED="1228828525797" ID="Freemind_Link_1869220948" MODIFIED="1228833598722" TEXT="TITLE">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828528693" ID="Freemind_Link_1570132103" MODIFIED="1228833598725" TEXT="ROLE">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828529989" ID="Freemind_Link_448880569" MODIFIED="1228833598728" TEXT="LOGO">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1228834808114" ID="Freemind_Link_1768017135" MODIFIED="1228834812645" TEXT="example">
+<node CREATED="1228834813006" ID="Freemind_Link_181069413" MODIFIED="1228834867401" TEXT="LOGO:VALUE=uri:http://www.example.com/test.jpg">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228834833793" ID="Freemind_Link_388986514" MODIFIED="1228834867410" TEXT="LOGO;ENCODING=b;TYPE=JPEG:fdsfsdgewhewh">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1228828532349" ID="Freemind_Link_102142266" MODIFIED="1228833598730" TEXT="AGENT">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828533484" ID="Freemind_Link_1279790272" MODIFIED="1228833598734" TEXT="ORG">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1228834986390" ID="Freemind_Link_939948776" MODIFIED="1228834989520" TEXT="explanatory">
+<node CREATED="1228828535620" ID="Freemind_Link_301738921" MODIFIED="1228833598737" TEXT="CATEGORIES">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828538620" ID="Freemind_Link_1861797874" MODIFIED="1228833598743" TEXT="NOTE">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828540516" ID="Freemind_Link_346517319" MODIFIED="1228833741150" TEXT="PRODID">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828544164" ID="Freemind_Link_56470084" MODIFIED="1228833598750" TEXT="REV">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828546324" ID="Freemind_Link_81377924" MODIFIED="1228833598754" TEXT="SORT-STRING">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828549740" ID="Freemind_Link_1572681364" MODIFIED="1228833598759" TEXT="SOUND">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828552228" ID="Freemind_Link_1374247720" MODIFIED="1228833598763" TEXT="URL">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828553412" ID="Freemind_Link_1983584468" MODIFIED="1228833598765" TEXT="UID">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228828554452" ID="Freemind_Link_606680240" MODIFIED="1228833598767" TEXT="VERSION">
+<font NAME="Courier" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+<node CREATED="1228835215690" ID="Freemind_Link_1470613005" MODIFIED="1228835223244" TEXT="VERSION:3.0">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1228835207970" ID="Freemind_Link_1929499531" MODIFIED="1228835214102" TEXT="security">
+<node CREATED="1228828556932" FOLDED="true" ID="Freemind_Link_203378275" MODIFIED="1228833598770" TEXT="CLASS">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1228835262321" ID="Freemind_Link_731364111" MODIFIED="1228835265661" TEXT="values">
+<node CREATED="1228835266265" ID="Freemind_Link_860984111" MODIFIED="1228835279673" TEXT="PUBLIC">
+<edge WIDTH="thin"/>
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228835271617" ID="Freemind_Link_1843580364" MODIFIED="1228835279676" TEXT="PRIVATE">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228835275873" ID="Freemind_Link_880235419" MODIFIED="1228835279677" TEXT="CONFIDENTIAL">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1228828562532" ID="Freemind_Link_30236067" MODIFIED="1228833598772" TEXT="KEY">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1228835318216" ID="Freemind_Link_1112789984" MODIFIED="1228844140263" TEXT="extended types" VSHIFT="46">
+<node CREATED="1228835335240" ID="Freemind_Link_1964963901" MODIFIED="1228835337624" TEXT="X-*">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1228828591244" ID="Freemind_Link_173035628" MODIFIED="1228840674944" TEXT="parameters" VSHIFT="84">
+<node CREATED="1228828594291" ID="Freemind_Link_1614911437" MODIFIED="1228833657652" TEXT="TYPE">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1228835726097" ID="Freemind_Link_554095328" MODIFIED="1228835738474" TEXT="see individual use with each type"/>
+</node>
+</node>
+</node>
+<node CREATED="1228829430804" ID="Freemind_Link_509829758" MODIFIED="1228831420127" TEXT="usage">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1228830180758" ID="Freemind_Link_1973454196" MODIFIED="1228831420126" TEXT="types">
+<node CREATED="1228829460260" FOLDED="true" ID="Freemind_Link_88023610" MODIFIED="1228833670014" TEXT="NAME:">
+<font NAME="Courier" SIZE="12"/>
+<node CREATED="1228829492123" ID="Freemind_Link_773904706" MODIFIED="1228831420126" TEXT="displayable presentation text assoc. with source for the vcard -&gt; SOURCE:"/>
+</node>
+<node CREATED="1228829518891" ID="Freemind_Link_1886045312" MODIFIED="1228833670016" TEXT="PROFILE:VCARD">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1228830197998" ID="Freemind_Link_1036444470" MODIFIED="1228831420125" TEXT="parameter">
+<node CREATED="1228830221974" ID="Freemind_Link_1943093748" MODIFIED="1228833670018" TEXT="LANGUAGE">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228830225597" ID="Freemind_Link_1266724082" MODIFIED="1228833670019" TEXT="ENCODING">
+<font NAME="Courier" SIZE="12"/>
+</node>
+<node CREATED="1228830229734" ID="Freemind_Link_62933539" MODIFIED="1228833670021" TEXT="VALUE">
+<font NAME="Courier" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1228825601587" ID="Freemind_Link_1165784239" MODIFIED="1228831420124" TEXT="1998">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</map>
