@@ -1,0 +1,39 @@
+BEGIN:VCARD
+VERSION:3.0
+PROFILE:VCARD
+NAME:my vcard
+SOURCE:www.no-source.com
+FN:Dr. Florian Rampp suff.
+N:Rampp;Florian;Dominik Walker;Dr.;suff.
+SORT-STRING:Rampp
+NICKNAME:Tonix, Jack Kerouac
+PHOTO;VALUE=uri:www.test.de
+BDAY:1984-07-30
+ADR;TYPE=DOM;TYPE=POSTAL;TYPE=PARCEL;TYPE=HOME:POA;building;Werner-Str.;Erlangen;Bavaria;91055;GERMANY
+LABEL;TYPE=DOM;TYPE=POSTAL;TYPE=PARCEL;TYPE=WORK:POA
+blaues Hochhaus
+Martensstr. 3
+Erlangen
+Bavaria
+91044
+GERMANY
+TEL;TYPE=PREF;TYPE=HOME:09131 123456
+TEL;TYPE=MSG;TYPE=WORK:093131 4547567
+EMAIL;TYPE=INTERNET;TYPE=PREF:Florian.Ramp@weeb.de
+MAILER:email app name
+TZ:-01:00
+TITLE:student
+ROLE:Diploma-Student
+LOGO;VALUE=uri:www.informatik.de/logo.jpg
+ORG:Uni Erlangen;Dep Inf
+CATEGORIES:work, home, test
+NOTE:This is a comment for my vCard
+SOUND;VALUE=uri:www.sound.de
+URL:www.infomatik.uni-erlangen.de
+CLASS:PRIVATE
+KEY;ENCODING=b:fdsfsdafasdfsdafasdafafasfasf
+UID:fca472b29cec683206c6effb04b5a8f7
+REV:2008-12-9T16\:14\:39Z
+X-GENERATOR:vCardMaker 0.8.0 (http://vcardmaker.wackomenace.co.uk/)
+PRODID:-//RUBENARAKELYAN//NONSGML VCARDMAKER 0.8.0//EN
+END:VCARD
