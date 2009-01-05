@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<settings xmlns="http://maven.apache.org/xsd/settings"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/xsd/settings http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+	<profiles>
+		<profile>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<springdmserver.location>${user.home}/springsource-dm-server-1.0.0.RELEASE</springdmserver.location>
+			</properties>
+		</profile>
+	</profiles>
+
+
+</settings>
