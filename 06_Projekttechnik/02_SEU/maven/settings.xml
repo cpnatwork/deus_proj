@@ -9,7 +9,7 @@
 				<activeByDefault>true</activeByDefault>
 			</activation>
 			<properties>
-				<springdmserver.location>${user.home}/springsource-dm-server-1.0.0.RELEASE</springdmserver.location>
+				<springdmserver.location>${user.home}/springsource-dm-server-ee-1.0.1.RELEASE</springdmserver.location>
 			</properties>
 		</profile>
 	</profiles>
