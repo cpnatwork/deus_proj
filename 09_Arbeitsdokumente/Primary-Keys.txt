@@ -1,0 +1,82 @@
+UserID in _alle_ domain objects?
+--------------------------------
+Pro:
+- DOs sind wirklich eigenständige Entities
+- wird von Domain-Driven-Design propagiert
+
+Contra [X]:
+- Benutzungsaufwand (bei jeder Erzeugung muss ID mit gesetzt werden)
+- UserId ist aus Kontext (aufrufende Methode, Mitgliedschaft in einer Liste, etc.) eh klar, Aufnahme in DO führt zu Duplikation
+- UserId kann bei Speicherung über DAO-Interface auch als Parameter der add-Methode übergeben werden
+
+- Domain Model wird reicher, durch echte, notwendige Beziehungen zwischen den Objekten.
+
+- Implementierungsaufwand
+
+
+Ein DAO pro DO (auch Aggregate)?
+--------------------------------
+Pro [X]:
+- Intuitivität
+- Mechanische Erstellung eines DAOs, wenn ein DO erzeugt wird
+
+- Kompositionen aus DAOs erstellen mir composite DOs (z.B.: LoP)
+- Wenn aus Aggregat, mehr als nur eine Liste, etc. wird, dann kann dies im schon vorhandenen DAO einfach angepasst werden.
+- => Unabhängigkeit von der genauen Struktur der Aggregate im Core.
+- Ist nur für die elementaren Entities ein DAO vorhanden und Listen. bzw. fachliche Aggregate werden nur durch weitere Methoden des selben DAOs zurückgegeben, dann muss der Core Layer geändert werden, wenn ein Aggregat geändert, bzw. erweitert wird! z.B: bei Erzeugung von DIF!
+- 
+
+Contra:
+- Viele Methoden werden nicht benötigt...
+- Semantik beim Löschen von Aggregaten muss explizit festgelegt werden (wird nur das Aggregat gelöscht, oder auch die Bestandteile?)
+
+
+Änderung von Domain Objects auf Basis deren Aggregate (z.B: Hinzufügen eines LopEntrys durch Laden der LoP, hinzufügen des Entrys zur Liste und erneute Speicherung der Liste)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Pro:
+- Intuitiv, es wird direkt in Listen/fachlichen Aggregaten gedacht
+
+
+Contra: [X]
+- unperformant
+- direkte Nutzung des DAOs kürzer (weniger LoC)
+
+
+Einführung von Objekten, die den ganzen Primary-Key einer Entity umfassen?
+--------------------------------------------------------------------------
+Pro:
+- Kapselung
+
+Contra:
+- Vermischung von Partial Key einer Weak-Entity und Primary Keys aus Identifying Entities. Das fühlt sich irgendwie schlecht an.
+
+Alternative:
+1. Übergabe aller Key-Anteile bis auf den Diskriminator an DAO über Methodenparameter
+2. Navigation zum gewünschten DO über Java-Objekt-Netz
+
+
+------------------------------------------------------------
+
+
+Mein Vorschlag für DAO-Benutzungs-Richtlinie:
+1. Es gibt für jedes Domain Object einen DAO
+2. Ist das DO eine Weak-Entity, so enthält sie nur den Diskrimator-Anteil des Keys
+3. Weitere Key-Anteile werden im Interface vom DAO übergeben.
+
+
+------------------------------------------------------------
+
+
+
+Regeln für Primary Keys:
+
+1. Ist eine Entity eine Strong Entity, so enthält die entsprechende Java-Klasse den gesamten Primary Key in Form von Klassenattributen (bspw: Klassen: DigitalCard, Account, 
+
+2. Ist eine Entity eine Weak Entity, so enthält die entsprechende Java-Klasse nur den Diskriminator-Anteil des PKs
+Der Rest des Primary keys wird als weitere Parameter an DAO-Interfaces übergeben. (PIF (kein Diskriminator), DIF(kein Diskriminator), FIF (CP-ID als Diskriminator), AttentionElement (ID als Diskr.), ).
+
+3. Composite Attributes sind Value Objects, die keinen Primary Key haben. Somit enthält die entsprechende Java-Klasse auch keinen Primary key. (Bspw: Klassen: UserMetadata, LoginCredentials, Patch, ...)
+
+
+
+Ausnahme zu 2. (to be checked!): ListOf... (enthalten UserId)
